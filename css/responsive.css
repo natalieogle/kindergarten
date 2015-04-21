@@ -1,0 +1,17 @@
+@media screen and (min-width: 660px) {
+
+  /*************************************
+  HEADER
+  *************************************/
+  nav {
+    background: none;
+    float: right;
+    padding: 5px 0 0;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    padding: 0;
+  }
+}

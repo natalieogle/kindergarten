@@ -1,0 +1,166 @@
+/*************************************
+GENERAL
+*************************************/
+
+#wrapper {
+  max-width: 940px;
+  padding: 0 5%;
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+body {
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/*************************************
+HEADING
+*************************************/
+
+header {
+  float: left;
+  margin: 0 0 0 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Amatic SC', sans-serif;
+  color: #000;
+  margin: 15px 0;
+  font-size: 3em;
+  line-height: 2em;
+}
+
+
+/*************************************
+NAVIGATION
+*************************************/
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 20px;
+  padding: 0 0 15px 0;
+}
+
+nav li {
+  display: inline-block;
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+nav a, nav a:visited {
+  color: #777;
+  padding: 20px 30px 30px;
+}
+
+nav a.selected, nav a:hover {
+  color: #000;
+  background: url('../img/feather1.png') no-repeat center 19px;
+  padding: 20px 30px 30px;
+}
+
+/*************************************
+FOOTER
+*************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding: 20% 0 0 0;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+}
+/*************************************
+PAGE: PORTFOLIO
+*************************************/
+
+#kitten {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*************************************
+PAGE: INDEX/ABOUT
+*************************************/
+
+
+/*************************************
+PAGE: CONTACT
+*************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+  background-image: url('../img/twitter.png');
+}
+
+/*************************************
+COLORS
+*************************************/
+
+
+html {
+  background-color: #d3e8e9;
+  background-image: url('../img/main-feather1.jpg');
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #222;
+}
+
+.main {
+  padding: 0 60px;
+}
