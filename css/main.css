@@ -99,6 +99,12 @@ footer {
   height: 25px;
   margin: 0 5px;
 }
+
+#github {
+  opacity: 0.4;
+  width: 27px;
+  height: auto;
+}
 /*************************************
 PAGE: PORTFOLIO
 *************************************/
