@@ -2,9 +2,6 @@
 
 @media screen and (min-width: 990px) {
 
-  /*************************************
-  HEADER
-  *************************************/
   nav {
     background: none;
     float: right;
@@ -22,6 +19,32 @@
   .nameHeading {
     height: 130px;
   }
+
+  .portfolioImg {
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .imgArea {
+    display: block;
+    float: none;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .descripArea {
+    font-size: 0.9em;
+    display: block;
+    float: none;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px 15px;
+  }
+
+  #jot, #artsite {
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 659px) {
@@ -36,9 +59,13 @@
     width: 100%;
   }
 
-
   #skills {
     width: 100%;
+  }
+
+  .imgArea {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 400px) {
