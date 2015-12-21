@@ -6,7 +6,7 @@
       Natalie Ogle
     </title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Nixie+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,29 +14,45 @@
   <body>
     <header>
       <a href="index.html" id="logo">
-        <h1>Natalie Ogle</h1>
+        <h1 class="nameHeading">Natalie Ogle</h1>
       </a>
       <nav>
         <ul>
-          <li><a href="index.html">About</a></li>
+          <li><a href="index.html" class="notSelected">About</a></li>
           <li><a href="portfolio.html" class="selected">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="notSelected">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div id="wrapper">
-      <section class="main">
-        <h3>Portfolio</h3>
-        <p>I am currently working on some mind-blowing projects to add to my portfolio.  You just wait...</p>
-        <p>In the meantime, here is a picture of my cute kitten.</p>
-      </section>
-      <section>
-        <img src="img/kitten.png" alt="Picture of the cutest cat ever" id="kitten">
-      </section>
+      <div class="imgArea">
+        <a href="https://we-jot.herokuapp.com" target="_blank"><img src="img/jot1.jpg" onmouseover="this.src='img/jot2.jpg'" onmouseout="this.src='img/jot1.jpg'" alt="Screen shot of Jot app" class="portfolioImg"></a>
+      </div>
+      <div id="jot" class=descripArea>
+        <p> Jot is a full-stack JavaScript scheduling application I am building with a partner that will be used by a Portland private school for their childcare services. It will allow both the school and caregivers to easily coordinate and manage before and after-school care.</p>
+        <p> Technology stack: ExpressJS, Orchestrate, BackboneJS, PassportJS, HandlebarsJS, JQuery, HTML, Bootstrap, and CSS</p>
+        <p> Next stages: Adding admin interface, additional user features, push notifications, and payment gateway</p>
+        <div class="portfolioLinks">
+          <a href="https://we-jot.herokuapp.com" target="_blank"><img src="img/jotlogo.png" alt="Jot Logo" class="portfolioLogo"></a>
+          <a href="https://github.com/Karandashnik/Project-Pencil" target="_blank"><img src="img/githublogo.png" alt="GitHub Logo" class="portfolioLogo"></a>
+        </div>
+      </div>
+      <div class="imgArea">
+        <a href="https://artsite.herokuapp.com" target="_blank"><img src="img/artsite1.jpg" onmouseover="this.src='img/artsite2.jpg'" onmouseout="this.src='img/artsite1.jpg'" alt="Screen shot of art site" class="portfolioImg"></a>
+      </div>
+      <div id="artsite" class=descripArea>
+        <p>I'm also working on a nameless Ruby on Rails site that my brother and I will use to showcase and sell the art of local artists. It will feature a limited number of elegantly displayed pieces with a new item being added after one sells.</p>
+        <p>Technology stack: Ruby on Rails, Devise Gem, postgreSQL, HTML, and CSS</p>
+        <p>Next stages: Adding additional item views, email service, payment gateway, and styling</p>
+        <p>The GitHub repository for this project is set to private. Feel free to  <a href="contact.html">contact</a> me if you would like to see it.</p>
+        <div class="portfolioLinks">
+          <a href="https://artsite.herokuapp.com" target="_blank"><img src="img/kitten.png" alt="Jot Logo" class="portfolioLogo"></a>
+        </div>
+      </div>
       <footer>
-        <a href="http://twitter.com/natalieogle3"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
-        <a href="http://facebook.com/natalie.ogle.90"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
-        <a href="https://github.com/natalieogle"><img src="img/github1.png" alt="GitHub logo" class="social-icon" id="github"></a>
+        <a href="http://twitter.com/natalieogle3" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
+        <a href="https://github.com/natalieogle" target="_blank"><img src="img/github.png" alt="GitHub logo" class="social-icon"></a>
+        <a href="http://www.linkedin.com/in/nataliemogle" target="_blank"><img src="img/linkedin.png" alt="LinkedIn logo" class="social-icon"></a>
         <p>&copy; 2015 Natalie Ogle.</p>
       </footer>
     </div>

@@ -6,7 +6,7 @@
       Natalie Ogle
     </title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Nixie+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,28 +14,35 @@
   <body>
     <header>
       <a href="index.html" id="logo">
-        <h1>Natalie Ogle</h1>
+        <h1 class="nameHeading">Natalie Ogle</h1>
       </a>
       <nav>
         <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html" class="notSelected">About</a></li>
+          <li><a href="portfolio.html" class="notSelected">Portfolio</a></li>
           <li><a href="contact.html" class="selected">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div id="wrapper">
-      <section class="main">
-        <h3>Contact Details</h3>
-        <ul class="contact-info">
-          <li class="mail"> <a href="mailto:natalie.ogle85@gmail.com"> natalie.ogle85@gmail.com</a></li>
-          <li class="twitter"> <a href="http://twitter.com/intent/tweet?screen_name=natalieogle3"> @natalieogle3 </a></li>
-        </ul>
-      </section>
+      <div id="contact">
+        <div class="content">
+          <h3>Contact Details</h3>
+          <ul class="contact-info">
+            <li class="mail"> <a href="mailto:natalie.ogle85@gmail.com"> natalie.ogle85@gmail.com</a></li>
+            <li class="github"> <a href="https://github.com/natalieogle" target="_blank">@natalieogle</a></li>
+            <li class="twitter"> <a href="http://twitter.com/intent/tweet?screen_name=natalieogle3" target="_blank">@natalieogle3 </a></li>
+            <li class="linkedin"> <a href="http://www.linkedin.com/in/nataliemogle" target="_blank">@nataliemogle </a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="myPicArea">
+        <img src="img/natalie.jpg" alt="Picture of Natalie" id="myPic">
+      </div>
       <footer>
-        <a href="http://twitter.com/natalieogle3"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
-        <a href="http://facebook.com/natalie.ogle.90"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
-        <a href="https://github.com/natalieogle"><img src="img/github1.png" alt="GitHub logo" class="social-icon" id="github"></a>
+        <a href="http://twitter.com/natalieogle3" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
+        <a href="https://github.com/natalieogle" target="_blank"><img src="img/github.png" alt="GitHub logo" class="social-icon"></a>
+        <a href="http://www.linkedin.com/in/nataliemogle" target="_blank"><img src="img/linkedin.png" alt="LinkedIn logo" class="social-icon"></a>
         <p>&copy; 2015 Natalie Ogle.</p>
       </footer>
     </div>

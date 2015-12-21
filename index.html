@@ -6,7 +6,7 @@
       Natalie Ogle
     </title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great|Nixie+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,26 +14,44 @@
   <body>
     <header>
       <a href="index.html" id="logo">
-        <h1>Natalie Ogle</h1>
+        <h1 class="nameHeading">Natalie Ogle</h1>
       </a>
       <nav>
         <ul>
           <li><a href="index.html" class="selected">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html" class="notSelected">Portfolio</a></li>
+          <li><a href="contact.html" class="notSelected">Contact</a></li>
         </ul>
       </nav>
     </header>
     <div id="wrapper">
-      <section class="main">
-        <h3>About</h3>
-        <p>Hi, I'm Natalie. I recently found out that I enjoy writing code (SQL) and want to fill my brain with html and JavaScript (and sprinkle in some Ruby) so I can be creative and make really cool stuff.</p>
-        <p>Prepare for awesomeness to start oozing from this site.</p>
+      <section id="main">
+        <div class="content">
+          <h3>About</h3>
+          <p>Hi, I'm Natalie and I love to code! If I'm not at my current day job as an analyst, riding my horse, or snuggling my kitties, you will find me glued to my computer.</p>
+          <p>I've always enjoyed making things and being creative. I also find immense satisfaction in solving problems.
+            I think programming is a perfect mix of these things.</p>
+          <p>Over the last ten months, I have been spending every moment of my free time learning JavaScript and Ruby on Rails and working on projects.
+            I used to think I was borderline narcoleptic, but my problem wasn't physical. It was mental. I can officially say I have caught the programmer bug and now have trouble turning off my brain when it is bedtime!</p>
+          <p>My career path up to this point has been anything but linear, but I can't express how excited I am to have finally found what I want to do when I grow up!</p>
+          <p>Check out my <a href="portfolio.html">portfolio</a> to see the cool things I'm working on!</p>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="content">
+          <h3>Skills</h3>
+          <p>Languages: SQL, JavaScript, Ruby (basic), HTML5, CSS3</p>
+          <p>Frameworks: NodeJS, ExpressJS, BackboneJS, Bootstrap, Ruby on Rails</p>
+          <p>Libraries: JQuery, HandlebarsJS, UnderscoreJS</p>
+          <p>Databases: Orchestrate, postgreSQL (basic)</p>
+          <p>Tools: Git/GitHub, Heroku, PL/SQL, SAS, Gimp, Tableau</p>
+          <p>Other: Command Line, REST</p>
+        </div>
       </section>
       <footer>
-        <a href="http://twitter.com/natalieogle3"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
-        <a href="http://facebook.com/natalie.ogle.90"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
-        <a href="https://github.com/natalieogle"><img src="img/github1.png" alt="GitHub logo" class="social-icon" id="github"></a>
+        <a href="http://twitter.com/natalieogle3" target="_blank"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
+        <a href="https://github.com/natalieogle" target="_blank"><img src="img/github.png" alt="GitHub logo" class="social-icon"></a>
+        <a href="http://www.linkedin.com/in/nataliemogle" target="_blank"><img src="img/linkedin.png" alt="LinkedIn logo" class="social-icon"></a>
         <p>&copy; 2015 Natalie Ogle.</p>
       </footer>
     </div>
